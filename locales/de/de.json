@@ -4,93 +4,93 @@
     "trailer": "Trailer"
   },
   "dtMsgs": {
-    "noRecords": "No records found.",
-    "totalRecords": "Total records",
+    "noRecords": "Keine Einträge gefunden",
+    "totalRecords": "Gesamteinträge",
     "excel": "Excel",
-    "search": "Search",
+    "search": "Suche",
     "showEntries": "Show _MENU_ entries",
-    "all": "all",
-    "previous": "Previous",
-    "next": "Next",
+    "all": "Alle",
+    "previous": "Vorherige",
+    "next": "Nächste",
     "filtered": "(filtered from _MAX_ total records)"
   },
   "sidebar": {
     "monitoring": "Monitor",
-    "possibleBuyLog": "Possible Buy",
-    "pairsLog": "Pairs",
+    "possibleBuyLog": "Mögliche Käufe",
+    "pairsLog": "Paare",
     "dcaLog": "DCA",
-    "pendingLog": "Pending",
-    "salesLog": "Sales",
+    "pendingLog": "Schwebend",
+    "salesLog": "Verkäufe",
     "dustLog": "Dust",
-    "config": "Config",
-    "buyLog": "Buy",
+    "config": "Konfiguration",
+    "buyLog": "Kauf",
     "apiLogs": "Logs",
     "news": "News",
     "shorting": "Shorting",
     "proTools": "Pro",
-    "activeConfig": "Active Config",
-    "otherConfigs": "Other Configs",
+    "activeConfig": "Aktive Konfiguration",
+    "otherConfigs": "Andere Konfiguration",
     "miscCoins": "Misc. Coins",
     "reservedLog": "Reserved Coins",
     "reversalLog": "Reversal Coins",
-    "notifications": "Notifications",
+    "notifications": "Benachrichtigungen",
     "stats": "Stats",
-    "account": "Account",
+    "account": "Konto",
     "hotconfig": "Hot Config",
     "ptfeeder": "PTFeeder"
   },
   "news": {
-    "postedOn": "Posted on"
+    "postedOn": "Veröffentlicht am"
   },
   "pageHeadings": {
-    "configuration": "Configuration",
+    "configuration": "Konfiguration",
     "totalLog": "Total Log"
   },
   "configOptions": {
     "pairs": "Pairs",
     "dca": "DCA",
-    "indicators": "Indicators",
+    "indicators": "Indikatoren",
     "hotConfig": "HotConfig",
-    "default": "DEFAULT",
-    "notSaved": "NOT Saved!"
+    "default": "Standard",
+    "notSaved": "NICHT gespeichert!"
   },
   "proTools": {
     "dashboard": "Dashboard",
-    "dcaCalculator": "Calculator"
+    "dcaCalculator": "Rechner"
   },
   "dailyProfitTable": {
     "date": {
-      "colTitle": "Date",
-      "colName": "Date"
+      "colTitle": "Datum",
+      "colName": "Datum"
     },
     "sells": {
-      "colTitle": "Sells",
-      "colName": "Sells"
+      "colTitle": "Verkäufe",
+      "colName": "Verkäufe"
     },
     "boughtCost": {
       "colTitle": "Bought Cost",
       "colName": "Bought Cost"
     },
     "soldValue": {
-      "colTitle": "Sold Value",
-      "colName": "Sold Value"
+      "colTitle": "Verkaufswert",
+      "colName": "Verkaufswert"
     },
     "profits": {
-      "colTitle": "Profits",
-      "colName": "Profits"
+      "colTitle": "Gewinne",
+      "colName": "Gewinne"
     },
     "profitPerc": {
-      "colTitle": "Profit %",
-      "colName": "Profit %"
+      "colTitle": "Gewinn %",
+      "colName": "Gewinn %"
     }
   },
   "summaryItems": {
     "balance": {
-      "title": "Balance",
+      "title": "Kontostand",
       "label": "BAL"
     },
     "testMode": {
-      "label": "TESTMODE"
+      "label": "TESTMODUS"
     },
     "testNet": {
       "label": "TESTNET"
@@ -99,60 +99,60 @@
       "label": "N/A"
     },
     "price": {
-      "title": "Price",
-      "label": "Price"
+      "title": "Preis",
+      "label": "Preis"
     },
     "tcv": {
-      "title": "Total Current Value",
+      "title": "Aktueller Gesamtwert",
       "label": "TCV"
     },
     "sb": {
-      "title": "Start Balance",
+      "title": "Eröffnungskontostand",
       "label": "SB"
     },
     "profit": {
-      "title": "Profit",
-      "label": "P",
-      "fullText": "Profit"
+      "title": "Gewinn",
+      "label": "G",
+      "fullText": "Gewinn"
     },
     "lw": {
-      "title": "Profit Last Week",
+      "title": "Gewinn letzte Woche",
       "label": "LW"
     },
     "yd": {
-      "title": "Profit Yesterday",
+      "title": "Gewinn gestern",
       "label": "YD"
     },
     "td": {
-      "title": "Profit Today",
+      "title": "Gewinn heute",
       "label": "TD"
     },
     "trend": {
       "title": "Trend",
       "label": "T",
-      "suffix": " last 24 Hours!"
+      "suffix": " letzen 24 Stunden!"
     },
     "imageTitles": {
-      "fullScreen": "Fullscreen"
+      "fullScreen": "Vollbild"
     },
-    "updated": "Updated {{- timeAgo}}",
+    "updated": "Aktualisiert {{- timeAgo}}",
     "marginTrading": {
       "label": "MARGIN"
     }
   },
   "settingInfo": {
-    "active": "Active",
-    "reset": "Reset",
+    "active": "aktiv",
+    "reset": "Zurücksetzen",
     "uptime": {
-      "title": "Uptime of ProfitTrailer",
-      "label": "Uptime: "
+      "title": "Laufzeit ProfitTrailer",
+      "label": "Laufzeit: "
     },
     "chngePswrd": {
-      "label": "Change Passwords",
+      "label": "Passwörter ändern",
       "title": "Role should be \"{{ role }}\" to change passwords.",
       "tabs": {
-        "admin": "Admin password",
-        "moniter": "Monitor password"
+        "admin": "Admin Passwort",
+        "moniter": "Monitor Passwort"
       }
     },
     "noPswrdAndConfig": {
@@ -168,19 +168,19 @@
       "title": "Please enable password in your application file to enable this function."
     },
     "market": {
-      "label": "Market: ",
+      "label": "Markt: ",
       "title": "Your Exchange and Coin"
     },
     "currency": {
-      "title": "Currency"
+      "title": "Währung"
     },
     "config": {
-      "label": "Config: ",
-      "title": "Can be changed in Application file"
+      "label": "Konfiguration: ",
+      "title": "Kann in der Anwendungsdatei geändert werden"
     },
     "password": {
-      "label": "Password: ",
-      "title": "Can be changed in Application file"
+      "label": "Passwort: ",
+      "title": "Kann in der Anwendungsdatei geändert werden"
     },
     "som": {
       "label": "SOM: "
@@ -190,8 +190,8 @@
       "subLabel": "SOM Inactive/Active",
       "title": "Sell Only Mode",
       "globalLabel": "Global SOM",
-      "ON": "ON",
-      "OFF": "OFF"
+      "ON": "An",
+      "OFF": "Aus"
     },
     "somo": {
       "label": "SOMO: ",
@@ -201,38 +201,38 @@
       "label": "Heartbeats"
     },
     "settings": {
-      "label": "Settings"
+      "label": "Einstellungen"
     },
     "somoOnOff": {
       "label": "SOMO",
       "subLabel": "SOMO Inactive/Active",
-      "optionOne": "Disabled",
+      "optionOne": "Deaktiviert",
       "optionTwo": "Forced ON",
       "optionThree": "Forced OFF"
     },
     "time": {
-      "label": "Time: ",
-      "title": "Current Timezone time"
+      "label": "Zeit: ",
+      "title": "Aktuelle Zeitzone"
     },
     "utc": {
-      "title": "Exchange Server Time / UTC",
+      "title": "Börsezeit / UTC",
       "labelFullText": "UTC Time:",
       "labelShortText": "UTC:"
     },
     "logout": {
-      "label": "Logout"
+      "label": "Ausloggen"
     },
     "setup": {
       "label": "Setup"
     },
     "changeConfig": {
-      "label": "Public Configs",
+      "label": "Öffentliche Konfigurationen",
       "title": "Role should be \"{{ role }}\" to download configs."
     }
   },
   "monitoringSection": {
     "feed": "News",
-    "signal": "Subscriptions",
+    "signal": "Abonnements",
     "topFiveMarkets": {
       "btc": "BTC ",
       "eth": "ETH ",
@@ -241,90 +241,90 @@
       "ltc": "LTC "
     },
     "pairsBal": {
-      "label": "Pairs Balance"
+      "label": "Kontostand Paare"
     },
     "dcaBal": {
-      "label": "DCA Balance"
+      "label": "Kontostand DCA"
     },
     "coinTopMarket": {
       "title": "CoinGecko Top 5 Coins"
     },
     "volume": {
-      "label": "Volume"
+      "label": "Volumen"
     },
     "trade": {
       "label": "Trades"
     },
     "globalMarket": {
       "totalMarketCap": "Total Market Cap",
-      "total24HrsVol": "Total 24 Hour Volume",
+      "total24HrsVol": "Gesamtvolumen letzten 24 Stunden",
       "bitcoinMarketCap": "Bitcoin % of Market Cap",
       "title": "CoinGecko - Total"
     },
-    "usdFullText": " Estimated Value",
-    "usdShortText": " Est. Value",
-    "gainFullText": "Estimated Gain",
-    "gainShortText": "Est. Gain",
+    "usdFullText": " Geschätzter Wert",
+    "usdShortText": " gesch. Wert",
+    "gainFullText": "Geschätzter Zuwachs",
+    "gainShortText": "gesch. Zuwachs",
     "heading": "Monitoring",
     "tcvDust": {
       "label": "TCV with Dust",
       "title": "Total Current Value with your Dust"
     },
-    "notification": "Notification",
+    "notification": "Benachrichigungen",
     "trendContainerFirstPart": "The % trend of 50 top ",
     "trendContainerSecondPart": "coins from your market the last 24 hours",
     "trend24H": "Trend 24H",
     "balance": {
       "title": "Your current Balance not locked in bags",
-      "mainText": "Balance",
-      "usdFullText": "Estimated USD Value",
-      "usdShortText": "Est. USD Value"
+      "mainText": "Kontostande",
+      "usdFullText": "Geschätzter USD Wert",
+      "usdShortText": "gesch. USD Wert"
     },
     "tcv": {
       "title": "The current value of your bags",
       "mainText": "Total Current Value",
-      "usdFullText": "Estimated USD Value",
-      "usdShortText": "Est. USD Value"
+      "usdFullText": "Geschätzter USD Wert",
+      "usdShortText": "gesch. USD Wert"
     },
     "sb": {
-      "title": "Your Start Balance. Can be set in your PAIRS.properties.",
-      "mainText": "Start Balance",
-      "usdFullText": "Estimated USD Value",
-      "usdShortText": "Est. USD Value"
+      "title": "Eröffnungskontostand. Kann in der PAIRS.properties angepasst werden.",
+      "mainText": "Eröffnungskontostand",
+      "usdFullText": "Geschätzter USD Wert",
+      "usdShortText": "gesch. USD Wert"
     },
     "btcUsd": {
       "title": "Last BTCUSDT price from your Market",
       "mainText": "BTC USDT Price"
     },
     "trendUsd1H": {
-      "mainText": "Trend USD last 1H "
+      "mainText": "Trend USD letzte 1 Std. "
     },
     "trendUsd24H": {
-      "mainText": "Trend USD last 24H "
+      "mainText": "Trend USD letzte 24 Std. "
     },
     "trendUsd7D": {
-      "mainText": "Trend USD last 7D "
+      "mainText": "Trend USD letzte 7 Tage "
     },
     "trendUsdTill7D": {
       "title": "Average % Trend last hour, last 24 hours and last 7 days of top 20 altcoins USD Market (CoinGecko)"
     },
     "profitLW": {
-      "title": "Your profit from 7 Days",
-      "mainText": "Profit Last 7 Days",
-      "usdFullText": "Estimated USD Value",
-      "usdShortText": "Est. USD Value"
+      "title": "Gewinn der letzten 7 Tage",
+      "mainText": "Gewinn letzte 7 Tage",
+      "usdFullText": "Geschätzter USD Wert",
+      "usdShortText": "gesch. USD Wert"
     },
     "profitYday": {
-      "title": "Your profit from yesterday",
-      "mainText": "Profit Yesterday",
-      "usdFullText": "Estimated USD Value",
-      "usdShortText": "Est. USD Value"
+      "title": "Gewinn von gestern",
+      "mainText": "Gewinn gestern",
+      "usdFullText": "Geschätzter USD Wert",
+      "usdShortText": "gesch. USD Wert"
     },
     "profitToday": {
-      "title": "Your profit from today",
-      "mainText": "Profit Today",
-      "usdFullText": "Estimated USD Value",
-      "usdShortText": "Est. USD Value"
+      "title": "Gewinn von heute",
+      "mainText": "Gewinn heute",
+      "usdFullText": "Geschätzter USD Wert",
+      "usdShortText": "gesch. USD Wert"
     },
     "pot": {
       "title": "Pending Order Time",
