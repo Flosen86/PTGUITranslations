@@ -4,14 +4,14 @@
     "trailer": "Trailer"
   },
   "dtMsgs": {
-    "noRecords": "No records found.",
-    "totalRecords": "Total records",
+    "noRecords": "Keine Einträge gefunden.",
+    "totalRecords": "Gesamteinträge",
     "excel": "Excel",
-    "search": "Search",
+    "search": "Suche",
     "showEntries": "Show _MENU_ entries",
-    "all": "all",
-    "previous": "Previous",
-    "next": "Next",
+    "all": "alle",
+    "previous": "vorherige",
+    "next": "nächste",
     "filtered": "(filtered from _MAX_ total records)"
   },
   "sidebar": {
@@ -21,7 +21,7 @@
     "dcaLog": "DCA",
     "pendingLog": "Schwebend",
     "salesLog": "Verkäufe",
-    "dustLog": "Dust",
+    "dustLog": "Staub",
     "config": "Konfiguration",
     "buyLog": "Käufe",
     "apiLogs": "Logs",
@@ -30,8 +30,8 @@
     "proTools": "Pro",
     "activeConfig": "Aktive Konfiguration",
     "otherConfigs": "Andere Konfigurationen",
-    "miscCoins": "Misc. Coins",
-    "reservedLog": "Reserved Coins",
+    "miscCoins": "andere Coins",
+    "reservedLog": "reservierte Coins",
     "reversalLog": "Reversal Coins",
     "notifications": "Benachrichtigungen",
     "stats": "Statistiken",
@@ -65,19 +65,19 @@
     },
     "sells": {
       "colTitle": "Verkäufe",
-      "colName": "Verläufe"
+      "colName": "Verkäufe"
     },
     "boughtCost": {
-      "colTitle": "Bought Cost",
-      "colName": "Bought Cost"
+      "colTitle": "Kaufkosten",
+      "colName": "Kaufkosten"
     },
     "soldValue": {
-      "colTitle": "Sold Value",
-      "colName": "Sold Value"
+      "colTitle": "Verkaufswert",
+      "colName": "Verkaufswert"
     },
     "profits": {
-      "colTitle": "Profits",
-      "colName": "Profits"
+      "colTitle": "Profite",
+      "colName": "Profite"
     },
     "profitPerc": {
       "colTitle": "Profit %",
@@ -90,7 +90,7 @@
       "label": "BAL"
     },
     "testMode": {
-      "label": "TESTMODE"
+      "label": "TESTMODUS"
     },
     "testNet": {
       "label": "TESTNET"
@@ -99,15 +99,15 @@
       "label": "N/A"
     },
     "price": {
-      "title": "Price",
-      "label": "Price"
+      "title": "Preis",
+      "label": "Preis"
     },
     "tcv": {
-      "title": "Total Current Value",
+      "title": "aktueller Gesamtwert",
       "label": "TCV"
     },
     "sb": {
-      "title": "Start Balance",
+      "title": "Anfangsguthaben",
       "label": "SB"
     },
     "profit": {
@@ -116,24 +116,24 @@
       "fullText": "Profit"
     },
     "lw": {
-      "title": "Profit Last Week",
+      "title": "Profit letzte Woche",
       "label": "LW"
     },
     "yd": {
-      "title": "Profit Yesterday",
+      "title": "Profit gester",
       "label": "YD"
     },
     "td": {
-      "title": "Profit Today",
+      "title": "Profitheute",
       "label": "TD"
     },
     "trend": {
       "title": "Trend",
       "label": "T",
-      "suffix": " last 24 Hours!"
+      "suffix": " letzten 24 Stunden!"
     },
     "imageTitles": {
-      "fullScreen": "Fullscreen"
+      "fullScreen": "Vollbild"
     },
     "updated": "Updated {{- timeAgo}}",
     "marginTrading": {
@@ -141,18 +141,18 @@
     }
   },
   "settingInfo": {
-    "active": "Active",
-    "reset": "Reset",
+    "active": "Aktiv",
+    "reset": "Zurücksetzen",
     "uptime": {
       "title": "Uptime of ProfitTrailer",
       "label": "Uptime: "
     },
     "chngePswrd": {
-      "label": "Change Passwords",
+      "label": "Password ändern",
       "title": "Role should be \"{{ role }}\" to change passwords.",
       "tabs": {
-        "admin": "Admin password",
-        "moniter": "Monitor password"
+        "admin": "Admin Passwort",
+        "moniter": "Monitor Passwort"
       }
     },
     "noPswrdAndConfig": {
@@ -168,18 +168,18 @@
       "title": "Please enable password in your application file to enable this function."
     },
     "market": {
-      "label": "Market: ",
-      "title": "Your Exchange and Coin"
+      "label": "Markt: ",
+      "title": "Deine Börse und Währung"
     },
     "currency": {
-      "title": "Currency"
+      "title": "Währung"
     },
     "config": {
       "label": "Config: ",
       "title": "Can be changed in Application file"
     },
     "password": {
-      "label": "Password: ",
+      "label": "Passwort: ",
       "title": "Can be changed in Application file"
     },
     "som": {
@@ -187,7 +187,7 @@
     },
     "somOnOff": {
       "label": "SOM",
-      "subLabel": "SOM Inactive/Active",
+      "subLabel": "SOM Inaktiv/Aktie",
       "title": "Sell Only Mode",
       "globalLabel": "Global SOM",
       "ON": "ON",
@@ -201,26 +201,26 @@
       "label": "Heartbeats"
     },
     "settings": {
-      "label": "Settings"
+      "label": "Einstellungen"
     },
     "somoOnOff": {
       "label": "SOMO",
       "subLabel": "SOMO Inactive/Active",
-      "optionOne": "Disabled",
+      "optionOne": "Deaktiviert",
       "optionTwo": "Forced ON",
       "optionThree": "Forced OFF"
     },
     "time": {
-      "label": "Time: ",
-      "title": "Current Timezone time"
+      "label": "Zeit: ",
+      "title": "Aktuelle Zeitzonen Zeit"
     },
     "utc": {
-      "title": "Exchange Server Time / UTC",
-      "labelFullText": "UTC Time:",
+      "title": "Börsen Server Zeit / UTC",
+      "labelFullText": "UTC zeit:",
       "labelShortText": "UTC:"
     },
     "logout": {
-      "label": "Logout"
+      "label": "Ausloggen"
     },
     "setup": {
       "label": "Setup"
@@ -231,9 +231,9 @@
     }
   },
   "monitoringSection": {
-    "feed": "News",
-    "signal": "Subscriptions",
-    "topFiveMarkets": {
+    "feed": "Neuigkeiten",
+    "signal": "Abonnements",
+    "topFiveMarkts": {
       "btc": "BTC ",
       "eth": "ETH ",
       "xrp": "XRP ",
@@ -241,12 +241,12 @@
       "ltc": "LTC "
     },
     "pairsBal": {
-      "label": "Pairs Balance"
+      "label": "Paar Wert"
     },
     "dcaBal": {
-      "label": "DCA Balance"
+      "label": "DCA Wert"
     },
-    "coinTopMarket": {
+    "coinTopMarkt": {
       "title": "CoinGecko Top 5 Coins"
     },
     "volume": {
@@ -255,76 +255,76 @@
     "trade": {
       "label": "Trades"
     },
-    "globalMarket": {
-      "totalMarketCap": "Total Market Cap",
+    "globalMarkt": {
+      "totalMarktCap": "Total Markt Cap",
       "total24HrsVol": "Total 24 Hour Volume",
-      "bitcoinMarketCap": "Bitcoin % of Market Cap",
+      "bitcoinMarktCap": "Bitcoin % of Markt Cap",
       "title": "CoinGecko - Total"
     },
-    "usdFullText": " Estimated Value",
-    "usdShortText": " Est. Value",
-    "gainFullText": "Estimated Gain",
-    "gainShortText": "Est. Gain",
+    "usdFullText": " geschätzter Wert",
+    "usdShortText": " ges. Wert",
+    "gainFullText": "geschätzter Zuwachs",
+    "gainShortText": "ges. Zuwachs",
     "heading": "Monitoring",
     "tcvDust": {
-      "label": "TCV with Dust",
-      "title": "Total Current Value with your Dust"
+      "label": "TCV mit Staub",
+      "title": "aktueller Gesamtwert mit Staub"
     },
-    "notification": "Notification",
+    "notification": "Benachrichtigungen",
     "trendContainerFirstPart": "The % trend of 50 top ",
     "trendContainerSecondPart": "coins from your market the last 24 hours",
     "trend24H": "Trend 24H",
     "balance": {
       "title": "Your current Balance not locked in bags",
       "mainText": "Balance",
-      "usdFullText": "Estimated USD Value",
-      "usdShortText": "Est. USD Value"
+      "usdFullText": "geschätzter USD Wert",
+      "usdShortText": "ges. USD Wert"
     },
     "tcv": {
       "title": "The current value of your bags",
-      "mainText": "Total Current Value",
-      "usdFullText": "Estimated USD Value",
-      "usdShortText": "Est. USD Value"
+      "mainText": "aktueller Gesamtwert",
+      "usdFullText": "geschätzter USD Wert",
+      "usdShortText": "ges. USD Wert"
     },
     "sb": {
-      "title": "Your Start Balance. Can be set in your PAIRS.properties.",
-      "mainText": "Start Balance",
-      "usdFullText": "Estimated USD Value",
-      "usdShortText": "Est. USD Value"
+      "title": "Your Anfangsguthaben. Can be set in your PAIRS.properties.",
+      "mainText": "Anfangsguthaben",
+      "usdFullText": "geschätzter USD Wert",
+      "usdShortText": "ges. USD Wert"
     },
     "btcUsd": {
-      "title": "Last BTCUSDT price from your Market",
-      "mainText": "BTC USDT Price"
+      "title": "Last BTCUSDT price from your Markt",
+      "mainText": "BTC USDT Preis"
     },
     "trendUsd1H": {
-      "mainText": "Trend USD last 1H "
+      "mainText": "Trend USD letzte 1H "
     },
     "trendUsd24H": {
-      "mainText": "Trend USD last 24H "
+      "mainText": "Trend USD letzten 24H "
     },
     "trendUsd7D": {
-      "mainText": "Trend USD last 7D "
+      "mainText": "Trend USD letzten 7D "
     },
     "trendUsdTill7D": {
-      "title": "Average % Trend last hour, last 24 hours and last 7 days of top 20 altcoins USD Market (CoinGecko)"
+      "title": "Average % Trend last hour, last 24 hours and last 7 days of top 20 altcoins USD Markt (CoinGecko)"
     },
     "profitLW": {
-      "title": "Your profit from 7 Days",
-      "mainText": "Profit Last 7 Days",
-      "usdFullText": "Estimated USD Value",
-      "usdShortText": "Est. USD Value"
+      "title": "Profit von den letztem 7 Tagen",
+      "mainText": "Profit letzten 7 Tage",
+      "usdFullText": "geschätzter USD Wert",
+      "usdShortText": "ges. USD Wert"
     },
     "profitYday": {
-      "title": "Your profit from yesterday",
-      "mainText": "Profit Yesterday",
-      "usdFullText": "Estimated USD Value",
-      "usdShortText": "Est. USD Value"
+      "title": "Profit von gestern",
+      "mainText": "Profit gestern",
+      "usdFullText": "geschätzter USD Wert",
+      "usdShortText": "ges. USD Wert"
     },
     "profitToday": {
-      "title": "Your profit from today",
-      "mainText": "Profit Today",
-      "usdFullText": "Estimated USD Value",
-      "usdShortText": "Est. USD Value"
+      "title": "Profit von heute",
+      "mainText": "Profit heute",
+      "usdFullText": "geschätzter USD Wert",
+      "usdShortText": "ges. USD Wert"
     },
     "pot": {
       "title": "Pending Order Time",
@@ -341,17 +341,17 @@
       "pLetter": "P",
       "tLetter": "T",
       "marketTitle": "Your Exchange and Trading Coin",
-      "marketLabel": "Market:",
+      "marketLabel": "Markt:",
       "ver": "Ver:"
     },
     "pairsLog": {
       "title": "The current value of your pair coins",
       "fullText": "Current Value",
       "shortText": "CV",
-      "diffTitle": "The difference between Current Value and Bought Cost",
+      "diffTitle": "The difference between Current Value and Kaufkosten",
       "diffFullText": "Difference",
       "boughtCostTitle": "The bought cost of your pair coins",
-      "bcFullText": "Bought Cost",
+      "bcFullText": "Kaufkosten",
       "bcShortText": "BC",
       "label": "PAIRS LOG"
     },
@@ -379,12 +379,12 @@
     },
     "salesLog": {
       "title": "The bought cost of your sold coins",
-      "fullText": "Bought Cost",
+      "fullText": "Kaufkosten",
       "shortText": "BC",
-      "diffTitle": "The difference between Bought Cost and Sold Value",
+      "diffTitle": "The difference between Kaufkosten and Verkaufswert",
       "diffFullText": "Difference",
       "soldValueTitle": "The sold value of your sold coins",
-      "svFullText": "Sold Value",
+      "svFullText": "Verkaufswert",
       "svShortText": "SV",
       "label": "SALES LOG"
     },
@@ -405,9 +405,9 @@
       "colName": "Buy",
       "colTitle": "Buy Strategy"
     },
-    "currPrice": {
-      "colName": "Ask Price",
-      "colTitle": "Ask Price"
+    "currPreis": {
+      "colName": "Ask Preis",
+      "colTitle": "Ask Preis"
     },
     "vol": {
       "colName": "VOL",
@@ -472,7 +472,7 @@
       "colName": "Current Value"
     },
     "boughtCostCurrency": {
-      "colTitle": "Bought Cost {{currency}}"
+      "colTitle": "Kaufkosten {{currency}}"
     },
     "date": {
       "colName": "Date"
@@ -486,17 +486,17 @@
     "trigger": {
       "colName": "Trigger"
     },
-    "currPrice": {
-      "colName": "Bid Price"
+    "currPreis": {
+      "colName": "Bid Preis"
     },
-    "avgPrice": {
-      "colName": "Average Price"
+    "avgPreis": {
+      "colName": "Average Preis"
     },
     "targetValue": {
       "colName": "Target Value"
     },
-    "targetPrice": {
-      "colName": "Target Price"
+    "targetPreis": {
+      "colName": "Target Preis"
     },
     "AM": {
       "label": " AM"
@@ -504,15 +504,15 @@
     "PM": {
       "label": " PM"
     },
-    "liqPrice": {
-      "colName": "Liq. Price",
-      "colTitle": "Liquid Price"
+    "liqPreis": {
+      "colName": "Liq. Preis",
+      "colTitle": "Liquid Preis"
     },
     "actions": {
       "colName": "Actions"
     },
-    "avgCurrentTargetSoldPrice": {
-      "colName": "Avg. Price<br>Cur. Price<br>Target Price<br>Sold Price"
+    "avgCurrentTargetSoldPreis": {
+      "colName": "Avg. Preis<br>Cur. Preis<br>Target Preis<br>Sold Preis"
     },
     "currentDeltaTargetSoldProfitPercentage": {
       "colName": "Current Profit<br>Target Profit<br>Sold Profit"
@@ -524,8 +524,8 @@
       "colTitle": "Bought Amount"
     },
     "boughtCost": {
-      "colName": "Bought Cost",
-      "colTitle": "Bought Cost"
+      "colName": "Kaufkosten",
+      "colTitle": "Kaufkosten"
     },
     "firstTrailDate": {
       "colName": "First Trail Date"
@@ -552,9 +552,9 @@
       "colName": "Coin",
       "colTitle": "Coin Pair"
     },
-    "boughtPrice": {
-      "colName": "Bought Price",
-      "colTitle": "Bought Price"
+    "boughtPreis": {
+      "colName": "Bought Preis",
+      "colTitle": "Bought Preis"
     },
     "volume": {
       "colName": "VOL",
@@ -598,17 +598,17 @@
       "colName": "Sell",
       "colTitle": "Sell Strategy"
     },
-    "currPrice": {
-      "colName": "Bid Price",
-      "colTitle": "Bid Price"
+    "currPreis": {
+      "colName": "Bid Preis",
+      "colTitle": "Bid Preis"
     },
-    "currPriceBoughtPrice": {
-      "colName": "Bid Price <br> Bought Price",
-      "colTitle": "Bid Price <br> Bought Price"
+    "currPreisBoughtPreis": {
+      "colName": "Bid Preis <br> Bought Preis",
+      "colTitle": "Bid Preis <br> Bought Preis"
     },
-    "boughtrPrice": {
-      "colName": "Bought Price",
-      "colTitle": "Bought Price"
+    "boughtrPreis": {
+      "colName": "Bought Preis",
+      "colTitle": "Bought Preis"
     },
     "profit": {
       "colName": "P%",
@@ -631,15 +631,15 @@
       "colTitle": "Current Value"
     },
     "currValBoughtCost": {
-      "colName": "Current Value <br> Bought Cost",
-      "colTitle": "Current Value <br> Bought Cost"
+      "colName": "Current Value <br> Kaufkosten",
+      "colTitle": "Current Value <br> Kaufkosten"
     },
     "boughtCost": {
-      "colName": "Bought Cost",
-      "colTitle": "Bought Cost"
+      "colName": "Kaufkosten",
+      "colTitle": "Kaufkosten"
     },
     "boughtCostCurrency": {
-      "colTitle": "Currency Value <br> Bought Cost"
+      "colTitle": "Currency Value <br> Kaufkosten"
     },
     "summaryTable": {
       "cv": "CV",
@@ -647,15 +647,15 @@
       "d": "D",
       "diff": "Difference",
       "bc": "BC",
-      "boughtCost": "Bought Cost"
+      "boughtCost": "Kaufkosten"
     },
-    "liqPrice": {
-      "colName": "Liq. Price",
-      "colTitle": "Liquid Price"
+    "liqPreis": {
+      "colName": "Liq. Preis",
+      "colTitle": "Liquid Preis"
     },
-    "currPriceBoughtPriceLiqPrice": {
-      "colName": "Bid Price <br> Bought Price <br> Liquid Price",
-      "colTitle": "Bid Price <br> Bought Price <br> Liquid Price"
+    "currPreisBoughtPreisLiqPreis": {
+      "colName": "Bid Preis <br> Bought Preis <br> Liquid Preis",
+      "colTitle": "Bid Preis <br> Bought Preis <br> Liquid Preis"
     }
   },
   "dcaLogSection": {
@@ -709,9 +709,9 @@
       "colName": "Sell",
       "colTitle": "Sell Strategy"
     },
-    "currPrice": {
+    "currPreis": {
       "colName": "Bid.Pr<br>Avg.Pr",
-      "colTitle": "Bid Price<br>Average Price"
+      "colTitle": "Bid Preis<br>Average Preis"
     },
     "profit": {
       "colName": "P%",
@@ -741,9 +741,9 @@
       "tc": "TC",
       "totalCost": "Total Cost"
     },
-    "currPriceLiquidPrice": {
+    "currPreisLiquidPreis": {
       "colName": "Bid.Pr<br>Avg.Pr<br>Liq.Pr",
-      "colTitle": "Bid Price<br>Average Price<br>Liquid Price"
+      "colTitle": "Bid Preis<br>Average Preis<br>Liquid Preis"
     }
   },
   "pendingLogSection": {
@@ -762,13 +762,13 @@
       "colName": "Sell",
       "colTitle": "Sell Strategy"
     },
-    "currPrice": {
-      "colName": "Bid Price",
-      "colTitle": "Bid Price"
+    "currPreis": {
+      "colName": "Bid Preis",
+      "colTitle": "Bid Preis"
     },
-    "currPriceTargetPrice": {
-      "colName": "Bid Price<br>Target Price",
-      "colTitle": "Bid Price<br>Target Price"
+    "currPreisTargetPreis": {
+      "colName": "Bid Preis<br>Target Preis",
+      "colTitle": "Bid Preis<br>Target Preis"
     },
     "profit": {
       "colName": "P%",
@@ -804,17 +804,17 @@
     }
   },
   "salesLogSection": {
-    "boughtSoldPrice": {
-      "colName": "Bought Price<br>Sold Price"
+    "boughtSoldPreis": {
+      "colName": "Bought Preis<br>Sold Preis"
     },
     "boughtSoldValue": {
-      "colName": "Bought Cost<br>Sold Value"
+      "colName": "Kaufkosten<br>Verkaufswert"
     },
     "boughtSoldValueCurrency": {
-      "colTitle": "Bought Cost {{currency}}<br>Sold Value {{currency}}"
+      "colTitle": "Kaufkosten {{currency}}<br>Verkaufswert {{currency}}"
     },
     "soldValueCurrency": {
-      "colTitle": "Sold Value {{currency}}"
+      "colTitle": "Verkaufswert {{currency}}"
     },
     "coin": {
       "colName": "Coin",
@@ -828,13 +828,13 @@
       "colName": "Date",
       "colTitle": "Date (Time Since)"
     },
-    "boughtPrice": {
-      "colName": "Bought Price",
-      "colTitle": "Bought Price"
+    "boughtPreis": {
+      "colName": "Bought Preis",
+      "colTitle": "Bought Preis"
     },
-    "soldPrice": {
-      "colName": "Sold Price",
-      "colTitle": "Sold Price"
+    "soldPreis": {
+      "colName": "Sold Preis",
+      "colTitle": "Sold Preis"
     },
     "profit": {
       "colName": "P%",
@@ -846,22 +846,22 @@
     },
     "profitUSD": {
       "colName": "Profit <span class='api-market'></span>",
-      "colTitle": "Profit in your Market and USD "
+      "colTitle": "Profit in your Markt and USD "
     },
     "soldAmount": {
       "colName": "SAM",
       "colTitle": "Sold Amount"
     },
     "boughtCost": {
-      "colName": "Bought Cost",
-      "colTitle": "Bought Cost"
+      "colName": "Kaufkosten",
+      "colTitle": "Kaufkosten"
     },
     "boughtCostCurrency": {
-      "colTitle": "Bought Cost {{currency}}"
+      "colTitle": "Kaufkosten {{currency}}"
     },
     "soldValue": {
-      "colName": "Sold Value",
-      "colTitle": "Sold Value"
+      "colName": "Verkaufswert",
+      "colTitle": "Verkaufswert"
     },
     "profitSolo": {
       "colName": "Profit {{- market}}",
@@ -872,11 +872,11 @@
     },
     "summaryTable": {
       "sv": "SV",
-      "soldVal": "Sold Value",
+      "soldVal": "Verkaufswert",
       "d": "D",
       "diff": "Difference",
       "bc": "BC",
-      "boughtCost": "Bought Cost"
+      "boughtCost": "Kaufkosten"
     }
   },
   "dustLogSection": {
@@ -892,17 +892,17 @@
       "colName": "%",
       "colTitle": "24 Hour % Change"
     },
-    "currPriceBoughtPrice": {
-      "colName": "Bid Price <br> Bought Price",
-      "colTitle": "Bid Price <br> Bought Price"
+    "currPreisBoughtPreis": {
+      "colName": "Bid Preis <br> Bought Preis",
+      "colTitle": "Bid Preis <br> Bought Preis"
     },
-    "currPrice": {
-      "colName": "Bid Price",
-      "colTitle": "Bid Price"
+    "currPreis": {
+      "colName": "Bid Preis",
+      "colTitle": "Bid Preis"
     },
-    "boughtPrice": {
-      "colName": "Bought Price",
-      "colTitle": "Bought Price"
+    "boughtPreis": {
+      "colName": "Bought Preis",
+      "colTitle": "Bought Preis"
     },
     "profit": {
       "colName": "P%",
@@ -921,19 +921,19 @@
       "colTitle": "Total Amount"
     },
     "currValBoughtCost": {
-      "colName": "Current Value <br> Bought Cost",
-      "colTitle": "Current Value <br> Bought Cost"
+      "colName": "Current Value <br> Kaufkosten",
+      "colTitle": "Current Value <br> Kaufkosten"
     },
     "currVal": {
       "colName": "Current Value",
       "colTitle": "Current Value"
     },
     "boughtCost": {
-      "colName": "Bought Cost",
-      "colTitle": "Bought Cost"
+      "colName": "Kaufkosten",
+      "colTitle": "Kaufkosten"
     },
     "boughtCostCurrency": {
-      "colTitle": "Currency Value {{currency}} <br> Bought Cost {{currency}}"
+      "colTitle": "Currency Value {{currency}} <br> Kaufkosten {{currency}}"
     },
     "summaryTable": {
       "cv": "CV",
@@ -941,7 +941,7 @@
       "d": "D",
       "diff": "Difference",
       "bc": "BC",
-      "boughtCost": "Bought Cost"
+      "boughtCost": "Kaufkosten"
     }
   },
   "footer": {
@@ -1046,11 +1046,11 @@
     "copiedToNewConfig": "Settings from the configuration you are currently editing ({{editingConfig}}) will be copied to this new configuration",
     "pendingTitle": "Send {{pair}} To Pending",
     "pendingText": "Enter a target price for the pair",
-    "pendingPlaceholder": "Enter Target Price for: {{pair}}",
+    "pendingPlaceholder": "Enter Target Preis for: {{pair}}",
     "pendingConfirm": "Send To Pending",
-    "boughtCostTitle": "Enter Bought Cost for {{pair}}",
+    "boughtCostTitle": "Enter Kaufkosten for {{pair}}",
     "boughtCostText": "You can find the formatting of the bought cost command in our wiki. Check the link in the footer.",
-    "boughtCostPlaceholder": "Enter Bought Cost for: {{pair}}",
+    "boughtCostPlaceholder": "Enter Kaufkosten for: {{pair}}",
     "buyRecord": "Add New Buy Record",
     "salesRecord": "Add New Sales Record",
     "newRecordText": "Are you sure you want to add the record with the following information for: {{pair}}",
@@ -1098,15 +1098,15 @@
   },
   "configSection": {
     "activeConfig": "Active Config",
-    "market": "Market",
+    "market": "Markt",
     "choose": "Choose...",
-    "startBalance": "Start Balance",
+    "startBalance": "Anfangsguthaben",
     "keepBalance": "Keep Balance",
     "keepBalancePer": "Keep Balance %",
     "initialCostPerc": "Initial Cost %",
-    "priceTriggerMarket": "Price Trigger Market",
-    "priceMarket": "Price Market",
-    "priceRise": " Price Rise",
+    "priceTriggerMarkt": "Preis Trigger Markt",
+    "priceMarkt": "Preis Markt",
+    "priceRise": " Preis Rise",
     "riseRecover": " Rise Recover",
     "recover": " + Recover",
     "dropRecover": " Drop Recover",
@@ -1148,8 +1148,8 @@
     "maxPairs": "Max. Pairs",
     "minBuyVolume": "Min. Buy Volume",
     "minVol": "Min. Vol",
-    "minBuyPrice": "Min. Buy Price",
-    "minPrice": "Min. Price",
+    "minBuyPreis": "Min. Buy Preis",
+    "minPreis": "Min. Preis",
     "maxBuySpread": "Max. Buy Spread",
     "maxSpread": "Max. Spread",
     "minOrderbookPerc": "Min. Orderbook %",
@@ -1244,7 +1244,7 @@
     "crossCandles": "Cross Candles",
     "somTriggerLength": "SOM Trigger Length",
     "initialCost": "Initial Cost",
-    "priceDrop": " Price Drop",
+    "priceDrop": " Preis Drop",
     "grow": "Grow",
     "shrink": "Shrink",
     "blacklist": "Blacklist",
@@ -1274,13 +1274,13 @@
     "strategyDirectionE": "Buy Strategy Direction E"
   },
   "proToolsPage": {
-    "TotalCurrentValue": "Total Current Value",
+    "TotalCurrentValue": "aktueller Gesamtwert",
     "ProfitToday": "Profit Today",
     "ProfitYesterday": "Profit Yesterday",
     "ProfitLastSevenDays": "Profit Last 7 Days",
     "DailyCumulativeProfit": "Daily / Cumulative Profit",
-    "DailyProfits": "Daily Profits",
-    "CumulativeProfits": "Cumulative Profits",
+    "DailyProfite": "Daily Profite",
+    "CumulativeProfite": "Cumulative Profite",
     "Daily": "Daily",
     "Cummulative": "Cummulative",
     "CurrentValueDistribution": "Current Value Distribution",
@@ -1298,7 +1298,7 @@
     "MonthlyProfit": "Monthly Profit",
     "LastHour": "Last Hour",
     "CurrentHoldings": "Current Holdings",
-    "MonthlyProfits": "Monthly Profits",
+    "MonthlyProfite": "Monthly Profite",
     "ProfitablePairs": "Profitable Pairs",
     "Top10Last30": "Top 10 last 30 days",
     "MostProfitable": "Most Profitable",
@@ -1314,7 +1314,7 @@
       "Pending": "Pending",
       "Dust": "Dust"
     },
-    "MonthlyProfitsTable": {
+    "MonthlyProfiteTable": {
       "Month": "Month",
       "Sells": "Sells",
       "Profit": "Profit",
@@ -1323,7 +1323,7 @@
     "DCACalculator": {
       "DCATitle": "DCA Calculator",
       "DCAType": "Choose DCA type",
-      "StartBalance": "Start Balance",
+      "StartBalance": "Anfangsguthaben",
       "Pairs": "Pairs",
       "DCALevels": "DCA Levels",
       "InitialBuy": "Initial Buy",
@@ -1362,9 +1362,9 @@
     "generalStats": "General Stats",
     "coinSpecific": "Coin Specific",
     "showAsTableData": "Show as Tables",
-    "dailyProfits": "Daily Profits",
+    "dailyProfite": "Daily Profite",
     "dailyStats": "Daily Stats",
-    "monthlyProfits": "Monthly Profits",
+    "monthlyProfite": "Monthly Profite",
     "monthlyStats": "Monthly Stats",
     "salesDistribution": "Sales Distribution",
     "salesDistributionAbbr": "Sales Distribution Abbreviations",
@@ -1376,8 +1376,8 @@
     "buys": "Buys",
     "spent": "Spent",
     "earned": "Earned",
-    "profits": "Profits",
-    "totalCurrentValue": "Total Current Value",
+    "profits": "Profite",
+    "totalCurrentValue": "aktueller Gesamtwert",
     "minTCV": "Min. TCV",
     "takeProfit": "Take Profit",
     "takeProfitSafety": "Take Profit Safety",
@@ -1396,10 +1396,10 @@
     "pairsSold": "Pairs Sold",
     "type": "Type",
     "totalBuys": "Total Buys",
-    "totalBoughtCost": "Total Bought Cost",
+    "totalBoughtCost": "Total Kaufkosten",
     "totalSells": "Total Sells",
     "totalSellValue": "Total Sell Value",
-    "totalProfits": "Total Profits"
+    "totalProfite": "Total Profite"
   },
   "accountPage": {
     "serverSettings": "Server Settings",
@@ -1465,7 +1465,7 @@
       "header": "Auto open browser"
     },
     "startBalance": {
-      "header": "Start Balance",
+      "header": "Anfangsguthaben",
       "placeholder": "0",
       "help": "The balance you had when first starting. Also used to calculate TCV based profit %"
     },
@@ -1673,7 +1673,7 @@
     "startBalanceError": "Please insert a proper start balance.",
     "balanceError": "Please insert a proper balance.",
     "buyTimesError": "Please select a pair and insert the number of DCA levels.",
-    "boughtPriceError": "Please select a pair and insert a proper bought price.",
+    "boughtPreisError": "Please select a pair and insert a proper bought price.",
     "saveBtn": "Save",
     "choosePair": "Choose A Pair",
     "testModeBalance": {
@@ -1684,8 +1684,8 @@
       "title": "DCA Set Buy Times",
       "help": "Set the DCA level on a coin. If you want ProfitTrailer to see it has DCA'd 2 times set 2"
     },
-    "boughtPrice": {
-      "title": "Set Bought Price",
+    "boughtPreis": {
+      "title": "Set Bought Preis",
       "help": "Set the bought price if the bot could not calculate the price correctly. The price you put in here will be set as the current average price of your pair."
     }
   },
