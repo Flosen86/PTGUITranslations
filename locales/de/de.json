@@ -16,56 +16,56 @@
   },
   "sidebar": {
     "monitoring": "Monitor",
-    "possibleBuyLog": "Possible Buy",
-    "pairsLog": "Pairs",
+    "possibleBuyLog": "Mögliche Käufe",
+    "pairsLog": "Paare",
     "dcaLog": "DCA",
-    "pendingLog": "Pending",
-    "salesLog": "Sales",
+    "pendingLog": "Schwebend",
+    "salesLog": "Verkäufe",
     "dustLog": "Dust",
-    "config": "Config",
-    "buyLog": "Buy",
+    "config": "Konfiguration",
+    "buyLog": "Käufe",
     "apiLogs": "Logs",
-    "news": "News",
+    "news": "Neuigkeiten",
     "shorting": "Shorting",
     "proTools": "Pro",
-    "activeConfig": "Active Config",
-    "otherConfigs": "Other Configs",
+    "activeConfig": "Aktive Konfiguration",
+    "otherConfigs": "Andere Konfigurationen",
     "miscCoins": "Misc. Coins",
     "reservedLog": "Reserved Coins",
     "reversalLog": "Reversal Coins",
-    "notifications": "Notifications",
-    "stats": "Stats",
-    "account": "Account",
+    "notifications": "Benachrichtigungen",
+    "stats": "Statistiken",
+    "account": "Konto",
     "hotconfig": "Hot Config",
     "ptfeeder": "PTFeeder"
   },
   "news": {
-    "postedOn": "Posted on"
+    "postedOn": "Veröffentlicht am"
   },
   "pageHeadings": {
-    "configuration": "Configuration",
+    "configuration": "Konfiguration",
     "totalLog": "Total Log"
   },
   "configOptions": {
-    "pairs": "Pairs",
+    "pairs": "Paare",
     "dca": "DCA",
-    "indicators": "Indicators",
+    "indicators": "Indikatoren",
     "hotConfig": "HotConfig",
-    "default": "DEFAULT",
-    "notSaved": "NOT Saved!"
+    "default": "Standard",
+    "notSaved": "NICHT gespeichert!"
   },
   "proTools": {
     "dashboard": "Dashboard",
-    "dcaCalculator": "Calculator"
+    "dcaCalculator": "Rechner"
   },
   "dailyProfitTable": {
     "date": {
-      "colTitle": "Date",
-      "colName": "Date"
+      "colTitle": "Datum",
+      "colName": "Datum"
     },
     "sells": {
-      "colTitle": "Sells",
-      "colName": "Sells"
+      "colTitle": "Verkäufe",
+      "colName": "Verläufe"
     },
     "boughtCost": {
       "colTitle": "Bought Cost",
